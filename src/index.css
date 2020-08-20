@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Work Sans","Varela Round",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +8,53 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "Work Sans","Varela Round",source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.non-verified-span {
+  background: #d80b2d;
+  color: #fff;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.verified-span {
+  background: #10d876;
+  color: #fff;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.pending-span {
+  background: #1652F0;
+  color: #fff;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.verification-status {
+  display: flex;
+  align-items: center;
 }
